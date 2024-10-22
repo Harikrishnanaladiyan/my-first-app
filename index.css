@@ -1,0 +1,130 @@
+.margin-1{
+    margin-left:50px ;
+
+}
+
+.box-1{
+    margin: 40px;
+    border:25px ridge;
+    padding:20px;
+    width:1400px;
+
+}
+
+.colour-1 ul{
+    background-color:rgb(217, 223, 230);
+    border: 3px groove;
+    width:800px;
+    color: blueviolet ;
+}
+
+.box-2 p{
+    margin:20px;
+    border: 2px ridge lightblue;
+
+}
+
+.margin-2{
+    border:3px ridge;
+    padding: 20px;
+    width: 1000px;
+    font-style: italic;
+    background-color: lightyellow;
+} 
+
+.property ol li{
+    font-size:x-large;
+     border:inset lightgray;
+     width: 200px;
+     background-color: lightgrey;
+}
+
+.position-static{
+    position: static;
+    border: groove red;
+    margin: 30px;
+    padding: 10px;
+    width: 1000px;
+}
+
+.position-relative{
+    position: relative;
+    border: ridge darkorange;
+    left: 350px;
+    width: 1000px;
+    height: 400px;
+
+}
+
+.position-absolute{
+    position: absolute;
+    border:double darkgreen;
+    bottom: 50px;
+    left: 300px;
+
+}
+.position-fixed{
+    position: fixed;
+    border: dotted darkcyan;
+    bottom: 500px;
+    top: 0px;
+    left: 1800px;
+    background-color: aqua;
+    width:100px;
+    height: 250px;
+    
+
+}
+
+.position-sticky{
+    position: sticky;
+    top: 100px;
+    background-color: gold;
+
+}
+
+.position-sticky-bottom{
+    position: sticky;
+    bottom:100px;
+    background-color: gold;
+}
+
+.wrapper{
+    border: double;
+    background-color: lightgoldenrodyellow;
+    font-style: italic;
+    margin: 40px;
+    padding: 30px;
+    text-align:justify;
+
+}
+
+.wrapper-1{
+    border: double;
+    background-color:lightskyblue;
+    font-style: italic;
+    margin: 40px;
+    padding: 30px;
+
+}
+
+.linear-gradient{
+    
+    background-image: linear-gradient( blue,yellow);
+
+}
+
+.Radial-gradient{
+
+    background-image: radial-gradient(blue 300px,yellow 600px,red 1000px );
+
+}
+
+.conic-gradient{
+
+    background-image: conic-gradient(  red,yellow ,green );
+    width: 370px;
+    height:370px;
+    border-radius: 100px;
+    border: ridge black;
+}
