@@ -1,0 +1,76 @@
+.title{
+    background-color:rgb(46, 85, 122) ;
+}
+
+.name{
+    background-color: bisque;
+}
+
+
+.list-item{
+    background-color:rgb(137, 192, 205);
+}
+
+ /* *{
+ background-color: rgb(226, 98, 198)  ;
+}  */
+
+li{
+    background-color:rgb(159, 113, 195);
+}
+
+
+.bnt{
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    color: aliceblue;
+    border: none;
+}
+
+.bnt:hover{
+    cursor:pointer;
+    background-color: brown;
+    color:black;
+    
+}
+
+
+/* .y:link{
+    color: black;
+    width: 10px;
+} */
+
+ .y:visited{
+    color:red ;
+    height: 50px; 
+}
+
+.y:active{
+    color: blueviolet;
+}
+
+.y:focus{
+    color: aqua;
+}
+
+
+
+table,td {
+    border: 2px solid rgb(1, 1, 1);
+    border-collapse:collapse ;
+}
+thead tr {
+    background-color: rgb(89, 170, 170) !important;
+}
+
+table tr:nth-child(odd){
+    color: rgb(0, 0, 0);
+    background-color: lightblue;
+}
+
+
+table tr:nth-child(even){
+    color:rgb(0, 0, 0);
+    background-color:lightyellow;
+}
